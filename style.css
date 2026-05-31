@@ -1,199 +1,115 @@
-/* ==========================
-   CONFIGURAÇÕES GERAIS
-   ========================== */
-
-/* Remove margens e espaçamentos padrão */
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-/* Cor de fundo geral do site */
 body{
-    background: #f4f2e9;
+    background:#f4f2e9;
 }
-
-/* ==========================
-   BANNER PRINCIPAL
-   ========================== */
 
 .hero{
+    background:url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854")
+    center center/cover no-repeat;
 
-    /* Imagem de fundo */
-    background: url("img/banner.jpg")
-                center
-                center/cover
-                no-repeat;
+    height:320px;
 
-    /* Altura do banner */
-    height: 320px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
-    /* Centraliza conteúdo */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* Centraliza textos */
-    text-align: center;
-
-    position: relative;
+    text-align:center;
 }
 
-/* Caixa branca transparente */
 .overlay{
-
-    /* Fundo semitransparente */
-    background: rgba(255,255,255,0.75);
-
-    padding: 30px;
-
-    border-radius: 15px;
+    background:rgba(255,255,255,.75);
+    padding:30px;
+    border-radius:15px;
 }
 
-/* Título principal */
 .hero h1{
-
-    color: #1b5e20;
-
-    font-size: 3rem;
-
-    margin-bottom: 15px;
+    color:#1b5e20;
+    font-size:3rem;
+    margin-bottom:15px;
 }
 
-/* Texto abaixo do título */
 .hero p{
-
-    color: #333;
-
-    font-size: 1.2rem;
+    color:#333;
+    font-size:1.2rem;
 }
-
-/* ==========================
-   CONTAINER DOS CARDS
-   ========================== */
 
 .container{
+    max-width:1400px;
+    margin:40px auto;
+    padding:0 20px;
 
-    /* Largura máxima */
-    max-width: 1400px;
+    display:grid;
 
-    /* Centraliza na página */
-    margin: 40px auto;
-
-    padding: 0 20px;
-
-    /* Layout em grade */
-    display: grid;
-
-    /* Responsividade automática */
     grid-template-columns:
-    repeat(auto-fit, minmax(300px, 1fr));
+    repeat(auto-fit,minmax(300px,1fr));
 
-    /* Espaçamento entre cards */
-    gap: 25px;
+    gap:25px;
 }
-
-/* ==========================
-   ESTILO DOS CARDS
-   ========================== */
 
 .card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
 
-    background: white;
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
 
-    border-radius: 15px;
-
-    overflow: hidden;
-
-    /* Sombra */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-
-    transition: 0.3s;
+    transition:.3s;
 }
 
-/* Animação ao passar o mouse */
 .card:hover{
-
-    transform: translateY(-8px);
+    transform:translateY(-8px);
 }
 
-/* Imagem do card */
 .card img{
-
-    width: 100%;
-
-    height: 200px;
-
-    object-fit: cover;
+    width:100%;
+    height:220px;
+    object-fit:cover;
 }
 
-/* Título do card */
 .card h2{
-
-    margin: 20px;
-
-    color: #1b5e20;
-
-    font-size: 1.6rem;
+    color:#1b5e20;
+    margin:20px;
 }
 
-/* Texto do card */
 .card p{
-
-    margin: 0 20px 20px;
-
-    color: #444;
-
-    line-height: 1.6;
+    margin:0 20px 20px;
+    color:#444;
+    line-height:1.6;
 }
 
-/* Botão */
 .card button{
+    margin:0 20px 20px;
 
-    margin: 0 20px 20px;
+    background:#2e7d32;
+    color:white;
 
-    background: #2e7d32;
+    border:none;
 
-    color: white;
+    padding:12px 24px;
 
-    border: none;
+    border-radius:8px;
 
-    padding: 12px 24px;
+    cursor:pointer;
 
-    border-radius: 8px;
-
-    cursor: pointer;
-
-    transition: 0.3s;
+    transition:.3s;
 }
 
-/* Efeito ao passar o mouse */
 .card button:hover{
-
-    background: #1b5e20;
+    background:#1b5e20;
 }
-
-/* ==========================
-   RODAPÉ
-   ========================== */
 
 footer{
+    background:#0f5b2c;
+    color:white;
 
-    background: #0f5b2c;
+    text-align:center;
 
-    color: white;
-
-    text-align: center;
-
-    padding: 25px;
-
-    margin-top: 40px;
-}
-
-/* Texto do rodapé */
-footer p{
-
-    font-size: 1.1rem;
+    padding:25px;
+    margin-top:40px;
 }
