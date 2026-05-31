@@ -1,19 +1,33 @@
+/* ==========================
+   CONFIGURAÇÕES GERAIS
+   ========================== */
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
-    background:#f4f2e9;
+    background:#f7faf7;
+    color:#2e5d34;
 }
 
+/* ==========================
+   BANNER
+   ========================== */
+
 .hero{
-    background:url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854")
+    background:
+    linear-gradient(
+        rgba(240,255,240,0.65),
+        rgba(240,255,240,0.65)
+    ),
+    url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854")
     center center/cover no-repeat;
 
-    height:320px;
+    height:350px;
 
     display:flex;
     justify-content:center;
@@ -23,93 +37,142 @@ body{
 }
 
 .overlay{
-    background:rgba(255,255,255,.75);
-    padding:30px;
-    border-radius:15px;
+    background:rgba(255,255,255,0.90);
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
 }
 
 .hero h1{
-    color:#1b5e20;
+    color:#4caf50;
     font-size:3rem;
     margin-bottom:15px;
 }
 
 .hero p{
-    color:#333;
+    color:#5f6f5f;
     font-size:1.2rem;
 }
 
+/* ==========================
+   CONTAINER
+   ========================== */
+
 .container{
     max-width:1400px;
-    margin:40px auto;
+    margin:50px auto;
+
     padding:0 20px;
 
     display:grid;
 
     grid-template-columns:
-    repeat(auto-fit,minmax(300px,1fr));
+    repeat(auto-fit,minmax(320px,1fr));
 
-    gap:25px;
+    gap:30px;
 }
 
+/* ==========================
+   CARDS
+   ========================== */
+
 .card{
-    background:white;
-    border-radius:15px;
+
+    background:#ffffff;
+
+    border-radius:18px;
+
     overflow:hidden;
 
-    box-shadow:0 4px 15px rgba(0,0,0,.1);
+    box-shadow:
+    0 4px 15px rgba(76,175,80,0.08);
 
-    transition:.3s;
+    transition:0.3s;
 }
 
 .card:hover{
+
     transform:translateY(-8px);
+
+    box-shadow:
+    0 10px 25px rgba(76,175,80,0.15);
 }
 
 .card img{
+
     width:100%;
+
     height:220px;
+
     object-fit:cover;
 }
 
 .card h2{
-    color:#1b5e20;
+
+    color:#4caf50;
+
     margin:20px;
+
+    font-size:1.5rem;
 }
 
 .card p{
+
+    color:#6c7a6c;
+
     margin:0 20px 20px;
-    color:#444;
-    line-height:1.6;
+
+    line-height:1.7;
 }
 
 .card button{
-    margin:0 20px 20px;
 
-    background:#2e7d32;
+    margin:0 20px 25px;
+
+    background:#81c784;
+
     color:white;
 
     border:none;
 
     padding:12px 24px;
 
-    border-radius:8px;
+    border-radius:10px;
 
     cursor:pointer;
 
-    transition:.3s;
+    font-weight:600;
+
+    transition:0.3s;
 }
 
 .card button:hover{
-    background:#1b5e20;
+
+    background:#66bb6a;
 }
 
+/* ==========================
+   RODAPÉ
+   ========================== */
+
 footer{
-    background:#0f5b2c;
-    color:white;
+
+    background:#dcedc8;
+
+    color:#2e5d34;
 
     text-align:center;
 
-    padding:25px;
-    margin-top:40px;
+    padding:30px;
+
+    margin-top:50px;
+
+    border-top:2px solid #c5e1a5;
+}
+
+footer p{
+    font-size:1.1rem;
+    font-weight:500;
 }
