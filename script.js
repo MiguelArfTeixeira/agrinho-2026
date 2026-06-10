@@ -1,6 +1,6 @@
 // Lista com as URLs correspondentes a cada botão (na ordem correta)
         const urls = [
-            "https://www.canalrural.com.br/sustentabilidade/",
+            "pagina 1.html",
             "https://www.ibm.com/br-pt/think/topics/green-technology",
             "https://videira.ifc.edu.br/zeco/2015/11/03/20-dicas-para-preservar-o-meio-ambiente/",
             "https://wikipedia.org",
