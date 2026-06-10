@@ -1,7 +1,7 @@
  <script>
         // Lista com as URLs correspondentes a cada botão (na ordem correta)
         const urls = [
-            "https://google.com",
+            "https://www.canalrural.com.br/sustentabilidade/",
             "https://youtube.com",
             "https://github.com",
             "https://wikipedia.org",
