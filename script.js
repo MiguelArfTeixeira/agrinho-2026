@@ -1,13 +1,13 @@
 // Lista com as URLs correspondentes a cada botão (na ordem correta)
         const urls = [
             "pagina 1.html",
-            "https://www.ibm.com/br-pt/think/topics/green-technology",
-            "https://videira.ifc.edu.br/zeco/2015/11/03/20-dicas-para-preservar-o-meio-ambiente/",
-            "https://wikipedia.org",
-            "https://reddit.com",
-            "https://stackoverflow.com",
-            "https://linkedin.com",
-            "https://instagram.com"
+            "pagina 2.html",
+            "pagina 3.html",
+            "pagina 4.html",
+            "pagina 5.html",
+            "pagina 6.html",
+            "pagina 7.html",
+            "pagina 8.html"
         ];
 
         // O laço FOR vai de 1 até 8 para bater exatamente com os IDs (btn-1 até btn-8)
