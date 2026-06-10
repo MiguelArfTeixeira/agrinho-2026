@@ -1,5 +1,4 @@
- <script>
-        // Lista com as URLs correspondentes a cada botão (na ordem correta)
+// Lista com as URLs correspondentes a cada botão (na ordem correta)
         const urls = [
             "https://www.canalrural.com.br/sustentabilidade/",
             "https://youtube.com",
@@ -22,4 +21,4 @@
                 window.open(urls[i - 1], '_blank');
             });
         }
-    </script>
+  
