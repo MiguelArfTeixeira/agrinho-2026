@@ -1,1 +1,2 @@
 # agrinho-2026
+este site tem como objetivo a educacão ambiental para pessoas que tenham curiosidade em saber a evolução tecnologica da agronomia, este site contem informações basicas de como a tecnologia é usada e a importância dela no meio agricola
