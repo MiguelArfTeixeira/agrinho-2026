@@ -6,12 +6,10 @@
             "pagina 4.html",
             "pagina 5.html",
             "pagina 6.html",
-            "pagina 7.html",
-            "pagina 8.html"
         ];
 
-        // O laço FOR vai de 1 até 8 para bater exatamente com os IDs (btn-1 até btn-8)
-        for (let i = 1; i <= 8; i++) {
+        // O laço FOR vai de 1 até 6 para bater exatamente com os IDs (btn-1 até btn-8)
+        for (let i = 1; i <= 6; i++) {
             
             // Seleciona o botão dinamicamente pelo ID usando template string
             let botao = document.getElementById(`btn-${i}`);
