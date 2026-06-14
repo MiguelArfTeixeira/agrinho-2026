@@ -14,6 +14,6 @@
 
 #### A página 4 vai conter casos de sucessos, de como pequenos agricultores, viraram grandes e ricos no meio.
 
-####A página 5 irá conter cursos de graça para que o produtor consiga ter uma acessibilidade melhor de inovaçoes e tecnologias que estão surgindo na agricultura.
+#### A página 5 irá conter cursos de graça para que o produtor consiga ter uma acessibilidade melhor de inovaçoes e tecnologias que estão surgindo na agricultura.
 
-####A página 6 vai falar sobre quais alimentos são mais saudaveis, e trazer uma porcentagem de cada alimento que consumidor mais tem na sua mesa no dia a dia, também irá conter diversos planos que façam o uso de menos agrotóxicos para diversos alimentos.
+#### A página 6 vai falar sobre quais alimentos são mais saudaveis, e trazer uma porcentagem de cada alimento que consumidor mais tem na sua mesa no dia a dia, também irá conter diversos planos que façam o uso de menos agrotóxicos para diversos alimentos.
