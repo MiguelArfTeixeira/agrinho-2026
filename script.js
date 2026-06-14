@@ -19,6 +19,8 @@ for (let i = 1; i <= 6; i++) {
         window.open(urls[i - 1], '_blank');
     });
 }
+
+// Acessibilidade
 let tamanhoFonte = 100;
 
 function aumentarFonte() {
