@@ -1,4 +1,7 @@
 # Agrinho-2026
+Link de visualização
+
+https://miguelarfteixeira.github.io/agrinho-2026/
 
 #### Este site tem como objetivo a educação ambiental para pessoas que tenham curiosidade em conhecer a evolução tecnológica da agronomia. Este site contém informações básicas sobre como a tecnologia é utilizada e qual a sua importância no meio agrícola.
 
