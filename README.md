@@ -7,7 +7,9 @@ https://miguelarfteixeira.github.io/agrinho-2026/
 #### Este site tem como objetivo a educação ambiental para pessoas que tenham curiosidade em conhecer a evolução tecnológica da agronomia. Este site contém informações básicas sobre como a tecnologia é utilizada e qual a sua importância no meio agrícola.
 
 
-### As imagens foram disponibilizadas e criadas pela inteligência artificial ChatGPT. A página 1 fala sobre as notícias do agro, onde serão disponibilizados conteúdos de extrema confiança e credibilidade para os mais diversos tipos de acesso, desde notícias diárias e momentâneas até notícias de nível mundial que envolvam o tema agrícola.
+### As imagens utilizadas no projeto foram criadas utilizando inteligência artificial ChatGPT. 
+
+### A página 1 fala sobre as notícias do agro, onde serão disponibilizados conteúdos para os mais diversos tipos de acesso, desde notícias diárias e momentâneas até notícias de nível mundial que envolvam o tema agrícola.
 
 ### A página 1 ainda está em desenvolvimento, mas já contém informações sobre um tema específico. Clicando no botão "Saiba mais", o produtor entrará em uma nova guia, onde irá encontrar informações sobre o tema selecionado.
 
